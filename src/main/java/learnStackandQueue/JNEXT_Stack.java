@@ -14,7 +14,7 @@ public class JNEXT_Stack {
             numDigits = scanner.nextInt();
             Stack<Integer> stack = new Stack<>();
 
-            for (int i = 0; i < numDigits; i++) {
+            for (int i=0; i < numDigits; i++) {
                 stack.add(scanner.nextInt());
             }
             int breakPoint = -1;
@@ -41,7 +41,6 @@ public class JNEXT_Stack {
                         stack3.add(stack1.pop());
                     }
                 }
-                //swap
                 stack.set(stack.size() - 1, stack2.pop());
                 stack2.add(numBreakPoint);
 
