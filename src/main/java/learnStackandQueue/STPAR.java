@@ -42,8 +42,6 @@ public class STPAR {
         } else {
             System.out.println("No");
         }
-
-
     }
 
 }
