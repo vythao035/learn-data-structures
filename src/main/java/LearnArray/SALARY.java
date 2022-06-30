@@ -9,7 +9,7 @@ public class SALARY {
         int[] salariesOfWorkers;
         Scanner scanner = new Scanner(System.in);
         numTestCases = scanner.nextInt();
-        while (numTestCases --> 0) {
+        while (numTestCases-- > 0) {
             numWorkers = scanner.nextInt();
             salariesOfWorkers = new int[numWorkers];
             for (int i =0; i<numWorkers; i++){

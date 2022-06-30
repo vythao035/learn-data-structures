@@ -10,7 +10,7 @@ public class JNEXT {
         Scanner scanner = new Scanner(System.in);
         numTestCases = scanner.nextInt();
 
-        while (numTestCases --> 0) {
+        while (numTestCases-- > 0) {
             int numDigits = scanner.nextInt();
             int[] arr = new int[numDigits];
 

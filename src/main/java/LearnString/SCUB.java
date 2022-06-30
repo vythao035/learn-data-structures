@@ -7,7 +7,7 @@ public class SCUB {
         int numTestCases, lengthString;
         Scanner scanner = new Scanner(System.in);
         numTestCases = scanner.nextInt();
-        while (numTestCases --> 0) {
+        while (numTestCases-- > 0) {
             lengthString = scanner.nextInt();
             String string = scanner.next();
             long charOne = 0;

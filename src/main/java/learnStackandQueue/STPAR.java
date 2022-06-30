@@ -1,15 +1,14 @@
 package learnStackandQueue;
 
 import java.util.*;
-import java.util.concurrent.ConcurrentLinkedQueue;
 
 public class STPAR {
     public static void main(String[] args){
         int numMobiles;
         Scanner scanner = new Scanner(System.in);
         numMobiles = scanner.nextInt();
-        Queue<Integer> queue = new ConcurrentLinkedQueue<>();
-        Queue<Integer> queue1 = new ConcurrentLinkedQueue<>();
+        Queue<Integer> queue = new LinkedList<>();
+        Queue<Integer> queue1 = new LinkedList<>();
         Stack<Integer> stack = new Stack<>();
 
         for (int i=0; i<numMobiles; i++){
@@ -38,10 +37,9 @@ public class STPAR {
             }
         }
         if (isOrder==Boolean.TRUE){
-            System.out.println("Yes");
+            System.out.println("yes");
         } else {
-            System.out.println("No");
+            System.out.println("no");
         }
     }
-
 }

@@ -1,0 +1,22 @@
+//package learnPrimeNumbers;
+//
+//import java.util.Arrays;
+//import java.util.Set;
+//
+//public class PrimeAnagrams {
+//    public static int[] getSetPrimeNums(int[] digits, int primeIndex) {
+//        int minLength = 1;
+//        int maxLength = digits.length - 2;
+//
+//        for (int i=minLength; i<=maxLength; i++) {
+//            int number = 0;
+//            for (int j=primeIndex; j<=primeIndex + i; j++) {
+//                number += number * 10 + digits[j];
+//            }
+//        }
+//    }
+//
+//    public static void main(String[] args) {
+//        System.out.println("");
+//    }
+//}

@@ -9,7 +9,7 @@ public class LAPIN {
         int numTestCases;
         Scanner scanner = new Scanner(System.in);
         numTestCases = scanner.nextInt();
-        while (numTestCases --> 0) {
+        while (numTestCases-- > 0) {
             String s = scanner.next();
             int stringLength = s.length();
             String subString1, subString2;
